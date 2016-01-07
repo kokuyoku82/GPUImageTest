@@ -13,6 +13,7 @@
 		656BE48C1C3E5E940011A407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656BE48A1C3E5E940011A407 /* Main.storyboard */; };
 		656BE48E1C3E5E940011A407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656BE48D1C3E5E940011A407 /* Assets.xcassets */; };
 		656BE4911C3E5E940011A407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656BE48F1C3E5E940011A407 /* LaunchScreen.storyboard */; };
+		656BE4991C3E66EB0011A407 /* CustomFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 656BE4981C3E66EB0011A407 /* CustomFilter.fsh */; };
 		E33BEEBF864B44A243ACC51B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB2B5EF5B2492C561BC954C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		656BE48D1C3E5E940011A407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656BE4901C3E5E940011A407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		656BE4921C3E5E940011A407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656BE4981C3E66EB0011A407 /* CustomFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomFilter.fsh; sourceTree = "<group>"; };
 		E718FD3DA9BD5D7B5B3C9407 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FDB2B5EF5B2492C561BC954C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				656BE4851C3E5E940011A407 /* AppDelegate.m */,
 				656BE4871C3E5E940011A407 /* ViewController.h */,
 				656BE4881C3E5E940011A407 /* ViewController.m */,
+				656BE4981C3E66EB0011A407 /* CustomFilter.fsh */,
 				656BE48A1C3E5E940011A407 /* Main.storyboard */,
 				656BE48D1C3E5E940011A407 /* Assets.xcassets */,
 				656BE48F1C3E5E940011A407 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656BE4991C3E66EB0011A407 /* CustomFilter.fsh in Resources */,
 				656BE4911C3E5E940011A407 /* LaunchScreen.storyboard in Resources */,
 				656BE48E1C3E5E940011A407 /* Assets.xcassets in Resources */,
 				656BE48C1C3E5E940011A407 /* Main.storyboard in Resources */,
